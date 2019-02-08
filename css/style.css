@@ -1,0 +1,66 @@
+/* CSS Document */
+
+body {
+	margin: 0 auto;
+	background: #9A9A9A;
+	min-width: 600px;
+}
+
+.container {
+	font-family: Consolas, "Andale Mono", "Lucida Console", "Lucida Sans Typewriter", Monaco, "Courier New", "monospace";
+}
+
+a {
+	text-decoration: none;
+	color: aliceblue;
+}
+
+li {
+	list-style-type: none;
+	float: left;
+	width: 175px;
+	text-align: center;
+	padding-bottom: 5px;
+}
+
+li:hover {
+	border-bottom: 1px solid aquamarine;
+}
+
+a:hover {
+	color: aquamarine;
+}
+
+#search {
+	margin: -5px 0px 0px 20px;
+	padding: 5px 0px 5px 5px;
+	width: 200px;
+	
+}
+
+#search-data {
+	margin: -5px 0px 0px 0px;
+	padding: 5px 0px 5px 0px;
+	width: 100px;
+}
+
+#account {
+	margin: 0px 0px 0px 50px ;
+	padding: 5px 10px 5px 10px;
+	width: 250px;
+	color: #C7FF35;
+	border-left: 1px solid white;
+	border-right: 1px solid white;
+	background: none;
+}
+
+#account:hover {
+	border: 1px solid white;
+}
+
+/* Header */
+
+.header {
+	margin: 35px 0px 35px 0px;
+	text-align: center;
+}
